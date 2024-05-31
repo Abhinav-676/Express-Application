@@ -1,1 +1,42 @@
-[{"id":"r1","name":"Mahal Bhandari","address":"Near hariom tower, lalpur, ranchi","cuisine":"Traditional","website":"https://www.mahalbhandari.com","description":"Explore the beauty in tradition."},{"id":"r2","name":"Desi Pizza","address":"under big bazar, over bridge, ranchi","cuisine":"Italian","website":"https://www.desipizza.com","description":"Get the taste of Italy at your home."},{"id":"r3","name":"RajKumar Thali","address":"Makchund Toli, Dhanbad","cuisine":"Traditional","website":"https://www.rajkumarthali.com","description":"Jaika khushiyo ka, Jaika sanskriti ka"},{"id":"3e8f19ee-2a96-4516-926e-4085e71f1adb","name":"Mintu Biscuits","address":"Laxmipuri, Birsa Chowk, Ranchi","cuisine":"Snacks","website":"https://www.mintubiscuits.com","description":"Fatafak bhuk ka ilaaz, Mintu biscuits"}]
+[
+  {
+    "id": "r1",
+    "name": "Mahal Bhandari",
+    "address": "Near hariom tower, lalpur, ranchi",
+    "cuisine": "Traditional",
+    "website": "https://www.mahalbhandari.com",
+    "description": "Explore the beauty in tradition."
+  },
+  {
+    "id": "r2",
+    "name": "Desi Pizza",
+    "address": "under big bazar, over bridge, ranchi",
+    "cuisine": "Italian",
+    "website": "https://www.desipizza.com",
+    "description": "Get the taste of Italy at your home."
+  },
+  {
+    "id": "r3",
+    "name": "RajKumar Thali",
+    "address": "Makchund Toli, Dhanbad",
+    "cuisine": "Traditional",
+    "website": "https://www.rajkumarthali.com",
+    "description": "Jaika khushiyo ka, Jaika sanskriti ka"
+  },
+  {
+    "id": "3e8f19ee-2a96-4516-926e-4085e71f1adb",
+    "name": "Mintu Biscuits",
+    "address": "Laxmipuri, Birsa Chowk, Ranchi",
+    "cuisine": "Snacks",
+    "website": "https://www.mintubiscuits.com",
+    "description": "Fatafak bhuk ka ilaaz, Mintu biscuits"
+  },
+  {
+    "id": "566e4a3c-728d-4db1-b959-d9f4d80fae8e",
+    "name": "Naya Restaurant",
+    "address": "New Delhi",
+    "cuisine": "Indian",
+    "website": "https://nayarestaurant.com",
+    "description": "You will 100% going to love it."
+  }
+]

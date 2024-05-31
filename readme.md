@@ -1,25 +1,25 @@
-Learning Project on Express
+# Learning Project on Express
 
 This project was part of express tutorial by Maximilian Schwarzmüller and Manuel Lorenz on Udemy.
 
-With this project I learned various aspects on an express apps like:
+With this project I learned various aspects on an express apps and backend programming like:
 
-    1. Setting up routes
+    * Setting up routes
         * Handling routes: static and dynamic
         * Handling invalid routes
-    2. Setting up a data management system.
-    3. Request parsing and handling:
+    * Setting up a data management system.
+    * Request parsing and handling:
         * handling request method, headers and data
         * Performing CRUD operations
         * Handling errors
-    4. Generating Response:
+    * Generating Response:
         * Setting up right headers and status code.
         * Serving files or data
-    5. Serving static content
-    6. Serving dynamic content
+    * Serving static content
+    * Serving dynamic content
         * Componentization
         * Conditional rendering
         * Repeated component handling
         * Data passing
-    7. Client side rendering
-    8. Server side rendering
+    * Client side rendering
+    * Server side rendering

@@ -21,13 +21,5 @@ With this project I learned various aspects on an express apps like:
         * Conditional rendering
         * Repeated component handling
         * Data passing
-    7. Client side rendering 
+    7. Client side rendering
     8. Server side rendering
-Express Folder Structure:
-
-    * root
-        * public
-        * routes
-        * util
-        * views
-            * includes

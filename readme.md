@@ -3,6 +3,7 @@ Learning Project on Express
 This project was part of express tutorial by Maximilian Schwarzmüller and Manuel Lorenz on Udemy.
 
 With this project I learned various aspects on an express apps like:
+
     1. Setting up routes
         * Handling routes: static and dynamic
         * Handling invalid routes
@@ -22,8 +23,8 @@ With this project I learned various aspects on an express apps like:
         * Data passing
     7. Client side rendering 
     8. Server side rendering
-
 Express Folder Structure:
+
     * root
         * public
         * routes

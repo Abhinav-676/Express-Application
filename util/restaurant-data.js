@@ -1,7 +1,7 @@
 const fs = require('node:fs')
 const path = require('node:path')
 
-const path_appdata = path.join(__dirname, "..", "app-data.json");
+const path_appdata = path.join(__dirname, "..", "data", "app-data.json");
 
 function getStoredRestaurants() {
 

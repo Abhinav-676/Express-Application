@@ -1,21 +1,28 @@
 const { getStoredRestaurants, addRestaurant } = require('../util/restaurant-data')
 const uuid = require('uuid')
 const express = require("express")
+const multer = require('multer');
 
 const router = express.Router()
+const upload = multer({ dest: "./data/images" })
 
 router.get('/recommend', (req, res) => {
     res.render('recommend')
 })
 
-router.post('/recommend', (req, res) => {
+router.post('/recommend', upload.single('image'), (req, res) => {
+    const file = req.file;
     const restaurant = {
         id: uuid.v4(),
         name: req.body.name,
         address: req.body.address,
         cuisine: req.body.cuisine,
         website: req.body.website,
-        description: req.body.description
+        description: req.body.description,
+        image: {
+            mime: file.mimetype,
+            src: file.path
+        }
     }
 
     addRestaurant(restaurant);

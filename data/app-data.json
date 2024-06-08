@@ -1,0 +1,26 @@
+[
+  {
+    "id": "36a55aa7-50f9-4e4c-83ac-ee27c0dfd0c7",
+    "name": "Kathi Rolls",
+    "address": "Karbala Chowk, Ranchi",
+    "cuisine": "Fast Food",
+    "website": "https://kathirolls.com",
+    "description": "Lajawaab swad, jo dil khush kar de!",
+    "image": {
+      "mime": "image/jpeg",
+      "src": "data\\images\\d50c7225f3c1b3b239f1caae0bb457ba"
+    }
+  },
+  {
+    "id": "f6937180-6388-40ed-9918-75a0981fb13a",
+    "name": "Babaji ki Thali",
+    "address": "Near Rock Garden, Kanke, Ranchi",
+    "cuisine": "Desi",
+    "website": "https://babajikithali.com",
+    "description": "Sehat me complete, swad me jabardast",
+    "image": {
+      "mime": "image/jpeg",
+      "src": "data\\images\\0fb4a49cb8adde74ffce0ca060a986d5"
+    }
+  }
+]

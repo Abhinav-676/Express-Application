@@ -1,4 +1,14 @@
-<article>
+<article class="restaurant-preview">
+  <div class="profile">
+    <!-- restaurant.profileImage -->
+    <div>
+      <img
+        src="/<%= restaurant.image.src %>"
+        type="<%= restaurant.image.mime %>"
+        alt="Profile Image"
+      />
+    </div>
+  </div>
   <h2><%= restaurant.name %></h2>
   <div class="restaurant-meta">
     <p><%= restaurant.cuisine %></p>

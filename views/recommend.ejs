@@ -8,7 +8,26 @@
     <%- include("includes/header") %> <%- include("includes/mobile-drawer") %>
     <main>
       <h1>Share your favorite restaurant!</h1>
-      <form action="/recommend" method="post">
+      <form action="/recommend" method="post" enctype="multipart/form-data">
+        <div class="form-control">
+          <div class="profile">
+            <div>
+              <img
+                id="image-preview"
+                src="https://placehold.co/100"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <label for="image">Restaurant profile</label>
+          <input
+            type="file"
+            id="image-upload"
+            name="image"
+            required
+            accept="image/jpg, image/png"
+          />
+        </div>
         <div class="form-control">
           <label for="name">Restaurant name</label>
           <input type="text" id="name" name="name" required />
@@ -43,5 +62,6 @@
         <button>Share Restaurant</button>
       </form>
     </main>
+    <script src="/scripts/image-preview.js"></script>
   </body>
 </html>

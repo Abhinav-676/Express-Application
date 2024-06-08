@@ -9,6 +9,7 @@ app.set('view engine', 'ejs')
 
 app.use(express.urlencoded({ extended: false }))
 app.use(express.static('public'))
+app.use('/data/images', express.static('data/images'))
 
 app.use('/', defaultRoutes)
 app.use('/', restaurantRoutes)
